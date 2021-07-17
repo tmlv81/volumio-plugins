@@ -1,0 +1,21 @@
+{
+	"name": "ampurify3_interface",
+	"version": "1.0.0",
+	"description": "This plugin provides volume synchronization between Volumio and Ampurify3. And this plugin can changes Ampurify3 modes based on Volumio status.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Jongho Park",
+	"license": "ISC",
+	"volumio_info": {
+		"prettyName": "Ampurify3 Interface",
+		"icon": "fa-lightbulb-o",
+		"plugin_type": "user_interface"
+	},
+	"dependencies": {
+		"fs-extra": "^0.28.0",
+		"kew": "^0.7.0",
+		"v-conf": "^1.4.0"
+	}
+}
